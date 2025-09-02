@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;    
+    border: solid red 1px;
+}
+html{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    padding: 0.3rem 0.5rem;
+    background-color: rgb(121, 77, 223);
+    color: aliceblue;
+}
+nav{
+    width: 100%;
+    display: flex;
+    text-align: left;
+    gap: 1rem;
+    position: sticky; /* O elemento se torna "sticky" */
+    top: 0;           /* Ele se fixará quando chegar a 0px do topo */
+    z-index: 100;
+    padding: 0.5rem;
+    background-color: rgb(121, 77, 223);
+}
+#navbar a{
+    color: aliceblue;
+}
+html, body{
+    background-color: rgb(236, 243, 255);
+        height: 100%; /* Garante que o body ocupa a altura da tela */
+        min-height: 100vh;
+}
+  main {
+        flex-grow: 1; /* Faz o main ocupar todo o espaço restante */
+        padding-bottom: 40px; /* Adiciona um padding para não ficar em cima do footer */
+    }
+footer{
+    width: 100%;
+    padding: 0.3rem 0.5rem;
+    background-color: rgb(121, 77, 223);
+    color: aliceblue;   
+    bottom: 5px; 
+    height: 40px; /* Altura definida para o rodapé */
+}
