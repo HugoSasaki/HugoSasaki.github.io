@@ -33,3 +33,6 @@ Repositório dedicado à aprendizado e página pessoal.
         background-color: #f0f0f0; /* Exemplo de cor de fundo */
     }
     ```
+
+    - Mudei a fonte geral pra Hanken Groteske por enquanto, lembrar de mudar caso queira
+    **- Usar [essa página](https://www.tabloid0120.com) como um dos exemplos**

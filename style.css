@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;    
     border: solid red 1px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 html{
     display: flex;
@@ -12,7 +18,6 @@ html{
 header{
     width: 100%;
     padding: 0.3rem 0.5rem;
-    color: aliceblue;
 }
 nav{
     width: 100%;
@@ -34,9 +39,18 @@ html, body{
         flex-grow: 1; /* Faz o main ocupar todo o espaço restante */
         padding-bottom: 40px; /* Adiciona um padding para não ficar em cima do footer */
     }
+div.inicial{
+    display: flex;
+}
+.foto_pessoal{
+    top: 0;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
 footer{
     width: 100%;
-    padding: 0.3rem 0.5rem;
     bottom: 5px; 
     height: 40px; /* Altura definida para o rodapé */
 }
