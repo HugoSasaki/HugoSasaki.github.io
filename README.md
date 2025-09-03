@@ -11,7 +11,7 @@ Repositório dedicado à aprendizado e página pessoal.
 - Criar uma segunda navbar idêntica que surge depois que a tela passa do header, com isso posso manter o primeiro navbar dentro do header e incluir o segundo navbar no main talvez
 - Mudar cor tbm, pq o bixinho ta feio viu
 - Adicionei códigos do google que sinto que não mudam nada:
-```
+```CSS
     html, body {
         height: 100%; /* Garante que o body ocupa a altura da tela */
         margin: 0;
