@@ -10,8 +10,12 @@ Repositório dedicado à aprendizado e página pessoal.
 
 - Criar uma segunda navbar idêntica que surge depois que a tela passa do header, com isso posso manter o primeiro navbar dentro do header e incluir o segundo navbar no main talvez
 - Adicionei navbar escondida, a lateral, que só aparece em alguns casos, preciso saber programar isso
+- Mudar cor tbm, pq o bixinho ta feio viu
+- Mudei a fonte geral pra Hanken Groteske por enquanto, lembrar de mudar caso queira
+- **Usar [essa página](https://www.tabloid0120.com) como um dos exemplos**
+
 - Adicionei códigos do google que sinto que não mudam nada:
-```
+```CSS
     html, body {
         height: 100%; /* Garante que o body ocupa a altura da tela */
         margin: 0;
@@ -32,7 +36,3 @@ Repositório dedicado à aprendizado e página pessoal.
         height: 40px; /* Altura definida para o rodapé */
         background-color: #f0f0f0; /* Exemplo de cor de fundo */
     }
-    ```
-
-    - Mudei a fonte geral pra Hanken Groteske por enquanto, lembrar de mudar caso queira
-    **- Usar [essa página](https://www.tabloid0120.com) como um dos exemplos**
