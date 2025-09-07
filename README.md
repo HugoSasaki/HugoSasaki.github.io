@@ -4,12 +4,12 @@ Repositório dedicado à aprendizado e página pessoal.
 
 ## Notas
 
-- Coloquei a navbar por fora o header pra que ela pudesse passar do header acompanhando a tela
+- Coloquei a navbar por fora do header pra que ela pudesse passar do header acompanhando a tela
 
 ## Lembretes
 
 - Criar uma segunda navbar idêntica que surge depois que a tela passa do header, com isso posso manter o primeiro navbar dentro do header e incluir o segundo navbar no main talvez
-- Mudar cor tbm, pq o bixinho ta feio viu
+- Adicionei navbar escondida, a lateral, que só aparece em alguns casos, preciso saber programar isso
 - Adicionei códigos do google que sinto que não mudam nada:
 ```
     html, body {

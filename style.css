@@ -18,10 +18,10 @@ html{
 header{
     width: 100%;
     padding: 0.3rem 0.5rem;
+    background-color: lightcyan;
 }
 nav{
     width: 100%;
-    display: flex;
     text-align: left;
     gap: 1rem;
     position: sticky; /* O elemento se torna "sticky" */
@@ -31,16 +31,28 @@ nav{
 }
 #navbar a{
 }
+.lateral-navbar{
+    
+}
 html, body{
         height: 100%; /* Garante que o body ocupa a altura da tela */
         min-height: 100vh;
 }
-  main {
+main {
         flex-grow: 1; /* Faz o main ocupar todo o espaço restante */
         padding-bottom: 40px; /* Adiciona um padding para não ficar em cima do footer */
     }
+section{
+    padding-bottom: 1rem;
+}
 div.inicial{
     display: flex;
+    gap: 3rem;
+    padding: 2%;
+    margin: 2%;
+    margin-top: 0;
+    background-color: aliceblue;
+    padding-left: 3rem;
 }
 .foto_pessoal{
     top: 0;
@@ -51,6 +63,6 @@ div.inicial{
 
 footer{
     width: 100%;
-    bottom: 5px; 
-    height: 40px; /* Altura definida para o rodapé */
+    bottom: 5px;
+    background-color: lightcoral;
 }
