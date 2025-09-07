@@ -8,7 +8,6 @@
     border: solid red 1px;
     font-family: "Hanken Grotesk", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
 }
 html{
@@ -28,11 +27,6 @@ nav{
     top: 0;           /* Ele se fixará quando chegar a 0px do topo */
     z-index: 100;
     padding: 0.5rem;
-}
-#navbar a{
-}
-.lateral-navbar{
-    
 }
 html, body{
         height: 100%; /* Garante que o body ocupa a altura da tela */
