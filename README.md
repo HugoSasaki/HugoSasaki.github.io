@@ -4,13 +4,14 @@ Repositório dedicado à aprendizado e página pessoal.
 
 ## Notas
 
-- Coloquei a navbar por fora do header pra que ela pudesse passar do header acompanhando a tela
 - Ideia pra pagina inicial, usar o a pra seguir pra proxima seção quando o usuário tentar descer a pagina, e ir direto pra próxima seção da mesma pagina, com uma animação. do jeito que to pensando, provavelmente vai ter que ser JavaScript
 - um link active é quando no momento que a gente clica, ele "ativa" pois foi selecionado
+- mudei o tamanho de todas as partes.
+- estou no prcesso de editar a nav-lateral e falta ajustar a largura pra ficar responsivo
+- pensar em um jeito de mexer no texto do header
 
 ## Lembretes
 
-- Criar uma segunda navbar idêntica que surge depois que a tela passa do header, com isso posso manter o primeiro navbar dentro do header e incluir o segundo navbar no main talvez
 - Adicionei navbar escondida, a lateral, que só aparece em alguns casos, preciso saber programar isso
 - Mudar cor tbm, pq o bixinho ta feio viu
 - Mudei a fonte geral pra Hanken Groteske por enquanto, lembrar de mudar caso queira
