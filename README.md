@@ -5,6 +5,8 @@ Repositório dedicado à aprendizado e página pessoal.
 ## Notas
 
 - Coloquei a navbar por fora do header pra que ela pudesse passar do header acompanhando a tela
+- Ideia pra pagina inicial, usar o a pra seguir pra proxima seção quando o usuário tentar descer a pagina, e ir direto pra próxima seção da mesma pagina, com uma animação. do jeito que to pensando, provavelmente vai ter que ser JavaScript
+- um link active é quando no momento que a gente clica, ele "ativa" pois foi selecionado
 
 ## Lembretes
 
