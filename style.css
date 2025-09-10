@@ -67,11 +67,20 @@ html{
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 100;
+    z-index: 99;
     padding: 0.5rem;
+    display: none;
 }
 #nav-button{
-
+    border: none;
+    justify-content: center;
+    display: block;
+    position: fixed;
+    top: 3%;
+    right: 2%;
+    z-index: 100;
+    align-items: center;
+    cursor: pointer;
 }
 section{
     height: 100vh;
