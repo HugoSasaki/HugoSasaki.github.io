@@ -26,7 +26,8 @@ html{
     width: 75vw;
     height: 75vh;
     margin: 25vmin;
-    overflow: hidden;
+    overflow-x: scroll;
+    /* scroll-snap-type: x mandatory; */
 }
 .texto_inicial{
     position: absolute;
@@ -35,9 +36,9 @@ html{
     display: flex;
     align-self: center;
     gap: 2rem;
-    transform: translate(0%,-50%);
-    overflow: hidden;
+    transform: translate(0%,-50%);  
     margin: 3vmin 3vmin 3vmin 5vmin;
+    /* scroll-snap-align: right; */
 }
 #intro0{
     width: 65vmin;
@@ -60,7 +61,7 @@ html{
     display: flex;
     flex-direction: column;
     background-color: aliceblue;
-    width: 23rem;
+    width: 350px;
     height: 100vh;
     text-align: left;
     gap: 1rem;
