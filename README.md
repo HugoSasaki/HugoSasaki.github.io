@@ -9,8 +9,8 @@ Repositório dedicado à aprendizado e página pessoal.
 - mudei o tamanho de todas as partes.
 - estou no prcesso de editar a nav-lateral
 - Tentar fazer com que apareçam os links da própria página quando o mouse estiver em cima do link da página, tipo o do fandom
-### pensar em um jeito de mexer no texto do header
-- Talvez em vez de scroll, usar o js pra que cada um, sendo um elemento diferente, apareça dependendo se clica no próximo
+### JavaScript
+- tentar o programa pra que ele vá direto de uma seção rpa outra no scroll com overlap: hidden
 
 ## Lembretes
 

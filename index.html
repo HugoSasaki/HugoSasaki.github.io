@@ -12,6 +12,7 @@
     </head>
     <body>
         <header id="inicial">
+            <button class="nav-header" id="left">esquerda</button>
             <div id="area-inicial">
                 <img src="/assets/Tongo.png" alt="Foto minha" class="foto_pessoal" draggable="false">
                 <div class="texto_inicial">
@@ -24,19 +25,24 @@
                     <p id="intro3">Não sei ainda o que fazer dessa página, mas por enquanto planejo deixar disponível aqui uma versão do livro que escrevi em conjunto com alguns colegas, pelo menos até o ponto em que eu mexi nele.</p>
                     <p id="intro4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos explicabo perferendis expedita tempore natus aliquid hic nesciunt quibusdam placeat tempora. Dicta deleniti cumque at laudantium quibusdam! Rerum assumenda maiores labore!</p>
                 </div>
-            </div>        
+            </div>  
+            <button class="nav-header" id="right">direita</button>      
         </header>
         <main>
-            <button id="nav-button">icone legal</button>
+            <button id="nav-button">abrir nav</button>
             <nav id="nav-lateral">
-                <a href="/index.html">Início</a>
-                    <a class="section" href="#habilidades">Minhas competências e habilidades </a>
-                    <a class="section" href="#curiosidades">Algumas curiosidades</a>
-                    <a class="section" href="#titulo_rodape">Contatos</a>
-                <a href="./Livro/Páginadolivro.html">Página do "livro"</a>
-                    <a class="section"href="/Livro/Páginadolivro.html#sec1">Seção 1</a>
-                    <a class="section"href="/Livro/Páginadolivro.html#sec2">Seção 2</a>
-                    <a class="section"href="/Livro/Páginadolivro.html#sec3">Seção 3</a>
+                <a href="/index.html" id="pagina-inicial">Início</a>
+                    <div id="sec-pagina-inicial">
+                        <a href="#habilidades">Minhas competências e habilidades </a>
+                        <a href="#curiosidades">Algumas curiosidades</a>
+                        <a href="#titulo_rodape">Contatos</a>
+                    </div>  
+                <a href="./Livro/Páginadolivro.html" id="pagina-livro">Página do "livro"</a>
+                    <div id="sec-pagina-livro">
+                        <a class="section" href="/Livro/Páginadolivro.html#sec1">Seção 1</a>
+                        <a class="section" href="/Livro/Páginadolivro.html#sec2">Seção 2</a>
+                        <a class="section" href="/Livro/Páginadolivro.html#sec3">Seção 3</a>
+                    </div>
                 <a href="https://hugosasaki.github.io/Livro-GCADMO-teste" target="_blank">Esse link guia para o livro de fato</a>
                 <a href="/trajetoria_academica.html">UFPR</a>
                 <a href="/Tutorial/html_tutorial.html" target="_blank">Teste HTML e CSS</a>
@@ -61,5 +67,6 @@
                 <p>GitHub: <a href="https://github.com/HugoSasaki" target="_blank">Página GitHub</a></p>
                 <p>Instagram: <a href="https://www.instagram.com/sasaki_hugo" target="_blank">PáginaInsta</a></p>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>
