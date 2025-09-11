@@ -43,10 +43,16 @@ html{
 #intro0{
     width: 65vmin;
     height: 75vmin;
+    place-content: center;
+    text-align: center;
+    padding: 1.5%;
 }
 #intro1, #intro2, #intro3, #intro4{
     width: 65vmin;
     height: 75vmin;
+    place-content: center;
+    text-align: center;
+    padding: 1.5%;
 }
 .foto_pessoal{
     position: relative;
@@ -70,6 +76,12 @@ html{
     right: 0;
     z-index: 99;
     padding: 0.5rem;
+}
+#nav-lateral a{
+    position: relative;
+    top: 15%;
+}
+a.section{
     display: none;
 }
 #nav-button{
