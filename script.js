@@ -11,12 +11,13 @@ nav_b.onclick = function(){
         nav_b.textContent = "fechar nav";
     }
 };
-nav.onmouseleave = function (e) {
+nav.onclick = function (e) {
     if (!nav.contains(e.relatedTarget)) {
       nav.style.display = "none";
       nav_b.textContent = "abrir nav";
     }
 };
+
 
 /*links do nav*/
 const link1 = document.getElementById("pagina-inicial");
@@ -68,6 +69,12 @@ function mostrarTexto(index) {
   textos.forEach((t, i) => {
     t.style.display = i === index ? "block" : "none";
   });
+  const intro = document.getElementById("intro");
+  if (index !== 0) {
+    intro.style.display = "block";
+  } else {
+    intro.style.display="none";
+  }
 }
 
 // inicializa
@@ -84,3 +91,28 @@ but_left.onclick = function () {
   indiceAtual = (indiceAtual - 1 + textos.length) % textos.length; // volta ao último se for menor que 0
   mostrarTexto(indiceAtual);
 };
+
+//Mudança de seções//
+const seções = [
+  document.getElementById("inicial"),
+  document.getElementById("seção1"),
+  document.getElementById("seção2"),
+  document.getElementById("rodape"),
+];
+let section = 0;
+let rolando = false;
+
+window.addEventListener("wheel", (e) => {
+  if (rolando) return; // evita múltiplos disparos rápidos
+      rolando = true;
+
+  if (e.deltaY > 0 && section < seções.length - 1) {
+      section++;
+  } else if (e.deltaY < 0 && section > 0) {
+      section--;
+  }
+
+  seções[section].scrollIntoView({ behavior: "smooth" });
+
+  setTimeout(() => rolando = false, 800); // tempo pro "cooldown"
+});

@@ -14,6 +14,9 @@ html{
     display: flex;
     flex-direction: column;
 }
+body{
+    overflow: hidden;
+}
 #inicial{
     width: 100vw;
     height: 100vh;
@@ -24,6 +27,7 @@ button.nav-header{
     position: absolute;
     height: 50px;
     width: 50px;
+    cursor: pointer;
 }
 .nav-header#left{
     left: 20vmin;
@@ -41,6 +45,10 @@ button.nav-header{
     width: 75vw;
     height: 75vh;
     margin: 25vmin;
+}
+h1#intro{
+    position: absolute;
+    top: -2.625rem;
 }
 .texto_inicial{
     position: absolute;
