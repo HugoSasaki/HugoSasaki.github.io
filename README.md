@@ -5,6 +5,7 @@ Repositório dedicado à aprendizado e página pessoal.
 ## Notas
 
 ### Nav lateral
+- talvez em vez de um botão clicável, poderia ser uma área na lateral que ativa com hover e com clique
 - falta estilizar e pensar em um jeito melhor dele mostrar os links internos
 - pensar em adicionar os contatos no navbar? talvez não
 ### JavaScript
