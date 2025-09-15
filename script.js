@@ -2,20 +2,10 @@
 const nav = document.getElementById("nav-lateral")
 const nav_b = document.getElementById("nav-button")
 
-nav_b.onclick = function(){
-    if (nav.style.display === "flex"){
-        nav.style.display = "none";
-        nav_b.textContent = "abrir nav";
-    } else{
-        nav.style.display = "flex";
-        nav_b.textContent = "fechar nav";
-    }
-};
-nav.onclick = function (e) {
-    if (!nav.contains(e.relatedTarget)) {
-      nav.style.display = "none";
-      nav_b.textContent = "abrir nav";
-    }
+nav_b.onclick = function() {
+    nav.classList.toggle("abre"); 
+    nav.classList.toggle("fecha");
+    nav_b.classList.toggle("abre"); 
 };
 
 
@@ -25,13 +15,16 @@ const sec1  = document.getElementById("sec-pagina-inicial");
 
 link1.onmouseenter = function () {
     sec1.style.display = "flex";
+    sec1.classList.add("slide");
 };
 sec1.onmouseleave = function () {
     sec1.style.display = "none";
+    sec1.classList.remove("slide");
 };
 link1.onmouseleave = function (e) {
     if (!sec1.contains(e.relatedTarget)) {
       sec1.style.display = "none";
+      sec1.classList.remove("slide");
     }
 };
 
@@ -40,13 +33,16 @@ const sec2  = document.getElementById("sec-pagina-livro");
 
 link2.onmouseenter = function () {
     sec2.style.display = "flex";
+    sec2.classList.add("slide");
 };
 sec2.onmouseleave = function () {
     sec2.style.display = "none";
+    sec2.classList.remove("slide");
 };
 link2.onmouseleave = function (e) {
     if (!sec2.contains(e.relatedTarget)) {
       sec2.style.display = "none";
+      sec2.classList.remove("slide");
     }
 };
 

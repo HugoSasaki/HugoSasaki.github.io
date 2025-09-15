@@ -32,12 +32,12 @@ button.nav-header{
 .nav-header#left{
     left: 20vmin;
     top: 50%;
-    z-index: 100;
+    z-index: 99.9;
 }
 .nav-header#right{
     right: 20vmin;
     top: 50%;
-    z-index: 100;
+    z-index: 99.9;
 }
 #area-inicial{
     position: relative;
@@ -85,7 +85,7 @@ h1#intro{
     transform: translate(0%,-50%);
 }
 #nav-lateral{
-    display: none;
+    display: flex;
     flex-direction: column;
     background-color: aliceblue;
     width: 350px;
@@ -95,9 +95,16 @@ h1#intro{
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 99;
+    z-index: 99.99;
     padding: 0.5rem;
+    transition: transform 0.6s;
+    transform: translateX(100%);
 }
+
+#nav-lateral.abre{
+    transform: translateX(0);
+}
+
 #nav-lateral div, #nav-lateral a{
     position: relative;
     top: 15%;
@@ -111,6 +118,17 @@ div#sec-pagina-inicial, div#sec-pagina-livro{
     padding-top: 0;
     margin-top: -1rem;
 }
+#sec-pagina-inicial a, #sec-pagina-livro a{
+    position: absolute;
+    transform: translateY(-100%);
+    visibility: hidden;
+    transition: transform 0.5s;
+}
+#sec-pagina-inicial.slide a, #sec-pagina-livro.slide a{
+    position: relative;
+    transform: translateY(0);
+    visibility: visible;
+}
 #nav-button{
     border: none;
     justify-content: center;
@@ -121,11 +139,44 @@ div#sec-pagina-inicial, div#sec-pagina-livro{
     z-index: 100;
     align-items: center;
     cursor: pointer;
+    background-color: transparent;
+    font-size: 45px;
 }
+
+#nav-button i {
+    transition: transform 0.6s;
+}
+
+#nav-button.abre i {
+    transform: rotate(225deg);
+}
+
 section{
     height: 100vh;
     width: 100vw;
 }
+#seção1{
+    position: relative;
+    padding: 5%;
+}
+#seção1 p{
+    width: 350px;
+    text-align: justify;
+    position: relative;
+}
+#p1-1{
+    left: 10vmin;
+    top: 5vmin;
+}
+#p1-2{
+    left: 120vmin;
+    top: 5vmin;
+}
+#p1-3{
+    top: 10vmin;
+    left: 50vmin;
+}
+
 footer{
     width: 100vw;
     height: 100vh;
